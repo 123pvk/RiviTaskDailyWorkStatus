@@ -1,0 +1,6 @@
+Developed a Spring Boot application for comprehensive employee management.
+The Employee Management Service provides full CRUD functionality.
+CRUD operations include Create (POST), Read (GET), Update (PUT), and Delete (DELETE).
+Postman was utilized for testing and validating all API endpoints.
+MySQL was used as the database to persist employee data.
+All CRUD operations are functioning correctly based on the requirements.
