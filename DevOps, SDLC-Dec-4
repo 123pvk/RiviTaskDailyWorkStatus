@@ -1,0 +1,6 @@
+Explored how DevOps and CI/CD work together to automate building, testing, and deploying software efficiently.
+Identified essential tools such as Git, Jenkins/GitHub Actions, Maven, Docker, and Kubernetes commonly used in real-time DevOps pipelines.
+Understood how CI/CD pipelines improve reliability by automating code integration, running tests, and deploying applications with minimal manual effort.
+Studied Agile methodology, which focuses on iterative development, continuous feedback, and faster delivery of working software.
+Reviewed the Waterfall model, a linear and sequential approach where each phase must be completed before moving to the next.
+Compared Agile vs Waterfall, learning that Agile supports flexibility and change, while Waterfall is more rigid and structured.
