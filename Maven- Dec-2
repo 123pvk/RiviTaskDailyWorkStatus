@@ -1,0 +1,5 @@
+Maven is a build automation and dependency management tool used mainly for Java applications. 
+It uses the pom.xml file to handle project dependencies, plugins, and build configurations.
+It provides a consistent and standardized build process, ensuring the application is compiled, tested, and packaged in the same way across all environments.
+Maven integrates smoothly with CI/CD pipelines (Jenkins, GitHub Actions, GitLab CI, etc.) to automatically build and validate the project whenever new code is pushed.
+Common Maven commands like mvn clean install, mvn package, and mvn test are executed in the pipeline to compile code, run tests, and generate deployable artifacts as part of automated delivery.
