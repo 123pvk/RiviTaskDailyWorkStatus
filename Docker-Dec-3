@@ -1,0 +1,5 @@
+Docker is a containerization platform that packages applications and their dependencies into lightweight, portable containers.
+It ensures consistent environments across development, testing, and production
+Docker images can be built automatically in CI pipelines, ensuring every code change produces a clean, reproducible environment.
+In CD pipelines, Docker containers are deployed to environments such as Kubernetes, ECS, or Docker Swarm for reliable and scalable releases.
+Docker enables faster delivery cycles by standardizing builds, simplifying deployments, and reducing time spent on environment setup.
