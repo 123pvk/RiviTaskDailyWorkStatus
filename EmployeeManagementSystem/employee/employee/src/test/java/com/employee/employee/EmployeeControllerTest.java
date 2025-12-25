@@ -41,7 +41,7 @@ class EmployeeControllerTest {
         MockitoAnnotations.openMocks(this);
         mockMvc = MockMvcBuilders
                 .standaloneSetup(employeeController)
-                .setControllerAdvice(new GlobalExceptionHandler()) // <--- Add this
+                .setControllerAdvice(new GlobalExceptionHandler()) 
                 .build();
         objectMapper = new ObjectMapper();
     }
@@ -85,8 +85,7 @@ class EmployeeControllerTest {
                 .thenThrow(new EmployeeNotFoundException("Employee not found with id: 1"));
 
         mockMvc.perform(get("/api/employees/1"))
-                .andExpect(status().isNotFound()); // now returns 404
-
+                .andExpect(status().isNotFound()); 
         verify(employeeService).getEmployeeById(1L);
     }
 
